@@ -1,0 +1,87 @@
+/* Reset CSS */
+
+/* Box sizing border-box para garantir que a largura e a altura incluam padding e border */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remover margens e preenchimentos padrão */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+figure,
+figcaption,
+blockquote,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+    margin: 0;
+    padding: 0;
+}
+
+/* Definir estilos padrão para o corpo do documento */
+body {
+    line-height: 1.6;
+}
+
+/* Remover estilo de lista padrão */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remover decoração de link padrão */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remover estilo de lista padrão para elementos não ordenados dentro de listas ordenadas e vice-versa */
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remover estilo de lista padrão para elementos de lista aninhados */
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remover decoração de descrição de lista padrão */
+dt {
+    font-weight: bold;
+}
+
+/* Remover espaçamento vertical padrão para elementos inline */
+img,
+iframe,
+small,
+span,
+sub,
+sup,
+strong {
+    vertical-align: middle;
+}
